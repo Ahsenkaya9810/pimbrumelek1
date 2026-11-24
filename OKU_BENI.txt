@@ -1,0 +1,29 @@
+PİMBRU — MELEK AKKAYALI / FOTOĞRAF PAYLAŞIMI
+
+Bu sürüm yayınlanan pimbru.onrender.com profil sayfasının HTML, CSS ve görünümünü esas alır.
+Metin Buhran profili DEĞİŞTİRİLMEZ; Melek Akkayalı için ayrı GitHub/Render yayını kurun.
+
+KULLANIM
+1. index.html dosyasını açın veya Render Static Site olarak yayınlayın.
+2. Üstteki + simgesi ya da “Fotoğraf / video” → telefondan galeri açılır.
+3. Fotoğraf seçin → önizleme → açıklama (isteğe bağlı) → Paylaş.
+4. Gönderi profilde ve fotoğraf sekmesinde görünür.
+5. Profil fotoğrafı gelince büyük yuvarlak profil fotoğrafına dokunup galeriden seçin.
+
+ÖNEMLİ
+Yüklenen fotoğraflar IndexedDB'de yalnızca kullanılan tarayıcıda tutulur.
+Başka telefona aktarılmaz, Render/GitHub'a yüklenmez; site verisi silinirse paylaşımlar da silinebilir.
+Paylaşmadan önce telefonun Safari/Chrome tarayıcısında deneyin. Gizli gezinme kullanmayın.
+
+DÜZENLEME
+veri.js: karakter adı, kapak renkleri, başlangıç profil fotoğrafı.
+stil.css: orijinal Pimbru görünümü + fotoğraf paylaşım alanları.
+foto/profil-varsayilan.svg: oyuncu fotoğrafı gelene kadar nötr simge.
+
+Oyuncunun isim ve fotoğrafını sette teslim edilecek bilgilerle düzenleyebilirsiniz.
+
+GÖNDERİ SİLME
+Paylaştığınız fotoğrafın gönderisindeki üç noktaya dokunun → Gönderiyi sil → onaylayın.
+Aynı seçenek büyütülmüş fotoğrafın üç nokta menüsünde de bulunur.
+Silme sadece bu tarayıcıda kayıtlı gönderileri etkiler; profil fotoğrafını silmez.
+Bu site fotoğrafları cihazın tarayıcı veritabanında tutar, sunucuya yüklemez.
